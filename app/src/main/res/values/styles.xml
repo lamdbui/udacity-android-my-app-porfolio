@@ -11,9 +11,10 @@
 
     <style name="StandardButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@color/colorButtonGray</item>
+        <item name="android:padding">4dp</item>
     </style>
 
-    <style name="CapstoneButton" parent="Widget.AppCompat.Button">
+    <style name="CapstoneButton" parent="StandardButton">
         <item name="android:background">@color/colorButtonOrange</item>
     </style>
 

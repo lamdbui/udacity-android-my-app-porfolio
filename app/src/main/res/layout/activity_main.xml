@@ -30,7 +30,7 @@
 
         <Button
             android:id="@+id/popular_movies_button"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -39,7 +39,7 @@
 
         <Button
             android:id="@+id/stock_hawk_button"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -48,7 +48,7 @@
 
         <Button
             android:id="@+id/build_it_bigger_button"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -57,7 +57,7 @@
 
         <Button
             android:id="@+id/make_your_app_material_button"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -66,7 +66,7 @@
 
         <Button
             android:id="@+id/go_ubiquitous_button"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -76,7 +76,7 @@
         <Button
             android:id="@+id/capstone_button"
             style="@style/CapstoneButton"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_margin="4dp"
@@ -84,4 +84,5 @@
             android:text="@string/capstone"/>
 
     </LinearLayout>
+
 </RelativeLayout>
