@@ -24,42 +24,42 @@ public class MainActivity extends AppCompatActivity {
         mPopularMoviesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Popular Movies");
+                generateAppToast(getString(R.string.popular_movies));
             }
         });
-        mStockHawkButton = (Button) findViewById(R.id.stock_hawl_button);
+        mStockHawkButton = (Button) findViewById(R.id.stock_hawk_button);
         mStockHawkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Stock Hawk");
+                generateAppToast(getString(R.string.stock_hawk));
             }
         });
         mBuildItBiggerButton = (Button) findViewById(R.id.build_it_bigger_button);
         mBuildItBiggerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Build it Bigger");
+                generateAppToast(getString(R.string.build_it_bigger));
             }
         });
         mMakeYourAppMaterialButton = (Button) findViewById(R.id.make_your_app_material_button);
         mMakeYourAppMaterialButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Make Your App Material");
+                generateAppToast(getString(R.string.make_your_app_material));
             }
         });
         mGoUbiquitousButton = (Button) findViewById(R.id.go_ubiquitous_button);
         mGoUbiquitousButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Go Ubiquitous");
+                generateAppToast(getString(R.string.go_ubiquitous));
             }
         });
         mCapstoneButton = (Button) findViewById(R.id.capstone_button);
         mCapstoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                generateAppToast("Capstone");
+                generateAppToast(getString(R.string.capstone));
             }
         });
     }
