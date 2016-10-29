@@ -6,10 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/StandardButton</item>
     </style>
 
-    <style name="CapstoneButton">
-        <item name="android:background">@color/colorAccentAlternate</item>
+    <style name="StandardButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorButtonGray</item>
+    </style>
+
+    <style name="CapstoneButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorButtonOrange</item>
     </style>
 
 </resources>
